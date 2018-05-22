@@ -35,7 +35,7 @@ cd /var/www/html/pterodactyl
 echo "##########################################"
 echo "#     Downloading & Installing panel..   #"
 echo "##########################################"
-curl -Lo panel.tar.gz https://github.com/pterodactyl/panel/releases/download/v0.7.5/panel.tar.gz
+curl -Lo panel.tar.gz https://github.com/pterodactyl/panel/releases/download/v0.7.6/panel.tar.gz
 tar --strip-components=1 -xzvf panel.tar.gz
 chmod -R 755 storage/* bootstrap/cache
 curl -sS https://getcomposer.org/installer | sudo php -- --install-dir=/usr/local/bin --filename=composer
